@@ -30,7 +30,10 @@ This will open up a popup asking you to authorise the app to fetch data. Accept 
 Once it runs, it should generate a .csv with a bunch of details for each video entry. If there is an existing .csv with the same name as CSV_NAME (I have provided 'mkbhd.csv' as a start), it will just fetch data from the .csv and not fetch fresh details.
 
 Ideally, order of execution of files:
-> fetch_transcripts.ipynb
+> etch_transcripts.ipynb
+
 > review.ipynb
+
 > plot.ipynb
+
 > grouping.ipynb
